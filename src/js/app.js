@@ -36,6 +36,11 @@ exports = angular.module('interestApp', ['ui.router'])
         }
       }
     })
+    .state('test', {
+      templateUrl: '/assets/templates/t2.html',
+      controller: 'testController',
+      url: '/test'
+    })
     .state('add', {
       template: "<add-pin></add-pin>",
       url: '/add',

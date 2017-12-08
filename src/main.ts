@@ -7,6 +7,7 @@ import {
 } from './app/app.module';
 import { AddPinComponent } from './app/add-pin/add-pin.component';
 import './js/app';
+import './js/test.controller.js';
 
 declare var angular: any;
 

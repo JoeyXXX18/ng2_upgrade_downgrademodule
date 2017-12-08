@@ -27,7 +27,8 @@
       "scripts": [
         "js/vendor/angular.js",
         "js/vendor/angular-ui-router.js",
-        "js/app.js"
+        "js/app.js",
+        "js/test.controller.js"
       ],
       "environmentSource": "environments/environment.ts",
       "environments": {
